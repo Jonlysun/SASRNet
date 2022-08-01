@@ -1,4 +1,4 @@
-This is the offical implementation of the paper [Space-Angle Super-Resolution for Multi-View Images](https://dl.acm.org/doi/abs/10.1145/3474085.3475244)
+This is the offical implementation of the paper [Space-Angle Super-Resolution for Multi-View Images](https://dl.acm.org/doi/abs/10.1145/3474085.3475244), ACM MM21
 
 # Motivation
 
@@ -47,7 +47,7 @@ You can download our pretrained depth-only and full model from [depth-only](http
 prepare dataset and updapte config.py with your own path
 ```
 cd exp
-$ set train=True in config.py
+# set train=True in config.py
 python exp.py --cmd retrain --iter last --eval-dsets tat --eval-scale 0.5
 ```
 
