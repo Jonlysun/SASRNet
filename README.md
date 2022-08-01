@@ -13,7 +13,7 @@ method can up-sample both the spatial and angular resolutions for multi-view ima
 
 
 # Setup
-This code use Ubuntu 16.04.4, CUDA 10.1 and the following Python packages
+This code uses Ubuntu 16.04.4, CUDA 10.1 and the following Python packages
 ```
 pytorch=1.3.0
 torchvision=0.4.1
@@ -44,7 +44,7 @@ You can download our pretrained depth-only and full model from [depth-only](http
 
 # Train
 
-prepare dataset and updapte config.py with your own path
+Prepare dataset and updapte config.py with your own path
 ```
 cd exp
 # set train=True in config.py
@@ -60,8 +60,14 @@ cd exp
 python exp.py --cmd eval --iter last --eval-dsets tat --eval-scale 0.5
 ```
 
-## Citation
-if you find this code useful, please cite our paper:
+# Metrics
+You can use metrics.py to calculate PSNR, SSIM and LPIPS. Results will be saved in 'exp/experiments'. Remember to update your own path.
+```
+python metrics.py --dataset Tanks_and_Temples (ETH)
+```
+
+# Citation
+If you find this code useful, please cite our paper:
 ```
 @inproceedings{sun2021space,
   title={Space-Angle Super-Resolution for Multi-View Images},
@@ -72,3 +78,5 @@ if you find this code useful, please cite our paper:
 }
 ```
 
+# Acknowledgement
+Our code borrows from [FreeViewSynthesis](https://github.com/isl-org/FreeViewSynthesis). Thanks for their excellent work.
