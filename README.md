@@ -37,7 +37,7 @@ We borrow Forward warping from [Forward warping extension](https://github.com/li
 We use the Deformable Convolution implementation from the [DCNv2](https://github.com/CharlesShang/DCNv2). Please follow their instruction to build this extension.
 
 # Dataset
-We preprocess two public Dataset [Tanks and Temples](https://github.com/isl-org/FreeViewSynthesis), [ETH](https://www.eth3d.net/datasets) for training and evaluation. For ETH, we use 5 scene：*delivery_area, electro, forest, playground, terrains*. You can download our preprocessed version from [Comming soon1](), [Comming soon2]().
+We preprocess two public Dataset [Tanks and Temples](https://github.com/isl-org/FreeViewSynthesis), [ETH](https://www.eth3d.net/datasets) for training and evaluation. For ETH, we use 5 scene：*delivery_area, electro, forest, playground, terrains*. You can download our preprocessed version from [baidudisk](https://pan.baidu.com/s/1NcKlDb7ZaCCz6vYnPNm4xg), code : chvb.
 
 # Pretrained Model
 You can download our pretrained depth-only and full model from [depth-only](https://drive.google.com/file/d/1eZomptpoa_gorNBUyzyhh5veQua5PxBJ/view?usp=sharing), [full model](https://drive.google.com/file/d/1nO5rhAlcWs9yM370qUh442clpiClxaFP/view?usp=sharing). Place them in 'exp/experiments'
