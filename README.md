@@ -1,4 +1,4 @@
-This is the offical implementation of the paper [Space-Angle Super-Resolution for Multi-View Images](https://dl.acm.org/doi/abs/10.1145/3474085.3475244), ACM MM21
+This is the official implementation of the paper [Space-Angle Super-Resolution for Multi-View Images](https://dl.acm.org/doi/abs/10.1145/3474085.3475244), ACM MM21
 
 # Motivation
 
